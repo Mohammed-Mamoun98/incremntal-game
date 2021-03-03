@@ -1,11 +1,12 @@
 import { useEffect } from "react";
+import { firstQuestion, secondQuestion } from "../../data/questions";
 import { question } from "../../models/Question";
 import "../styles.scss";
 import "./app.scss";
 
 export default function App() {
   useEffect(() => {
-    console.log({ question });
+    // console.log({ firstQuestion, secondQuestion });
   }, []);
 
   return (
